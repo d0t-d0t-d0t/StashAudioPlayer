@@ -27,7 +27,7 @@
         }
     }
 
-    function audioswitch() {
+    function audiotoggle() {
         const elm = document.querySelector(".scene-toolbar-group");
         const btng = document.createElement("div");
         const btn = document.createElement("button");
@@ -35,12 +35,13 @@
         if (pl.classList.contains("audio")) {
             btn.style.background = "rgba(138,155,168,.15)";
         }
-        btn.id = "audioSwitch";
+        btn.id = "audioToggle";
         btn.classList.add("minimal", "btn", "btn-secondary");
-        btn.innerHTML = "Audio Only";
+        //btn.innerHTML = "Audio Only";
+        btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.25a.75.75 0 0 0-.75.75v11.26a4.25 4.25 0 1 0 1.486 2.888A1 1 0 0 0 12.75 17V7.75H18a2.75 2.75 0 1 0 0-5.5z"/></svg>`
         btn.onclick = function() {
             const pl = document.querySelector(".VideoPlayer");
-            const bt = document.getElementById("audioSwitch");
+            const bt = document.getElementById("audioToggle");
             if (pl.classList.contains("audio")) {
                 setAudioElement(false);
                 bt.style.background = "transparent";
@@ -69,7 +70,7 @@
     PathElementListener('/scenes/', "#VideoJsPlayer > div.vjs-control-bar > div.vjs-source-selector.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button > div > ul > li > span.vjs-menu-item-text",
     function () {
         waitForElement(".tag-item", findAudioTag);
-        waitForElement(".scene-toolbar-group", audioswitch);
+        waitForElement(".scene-toolbar-group", audiotoggle);
     })
 
 })();
