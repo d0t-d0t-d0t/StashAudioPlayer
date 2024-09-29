@@ -28,3 +28,12 @@
     height: 56.25vw !important;
     position: relative !important;
 }
+#audioToggle.enabled {
+    color: #48aff0;
+}
+#audioToggle:hover {
+    color: #fff;
+}
+#audioToggle {
+    color: rgba(191,204,214,.5);
+}

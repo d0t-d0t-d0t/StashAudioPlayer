@@ -33,7 +33,7 @@
         const btn = document.createElement("button");
         const pl = document.querySelector(".VideoPlayer");
         if (pl.classList.contains("audio")) {
-            btn.style.color = "#48aff0";
+            btn.classList.add("enabled")
         }
         btn.id = "audioToggle";
         btn.classList.add("minimal", "btn", "btn-secondary");
@@ -44,10 +44,10 @@
             const bt = document.getElementById("audioToggle");
             if (pl.classList.contains("audio")) {
                 setAudioElement(false);
-                bt.style.color = "inherit";
+                bt.classList.remove("enabled");
             } else {
                 setAudioElement(true);
-                bt.style.color = "#48aff0";
+                bt.classList.add("enabled")
             }
         };
         btng.classList.add("btn-group");
