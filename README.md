@@ -15,3 +15,13 @@ Copy to the container:
 docker cp StashAudioPlayer stash:/root/.stash/plugins/StashAudioPlayer
 ```
 Now you can delete the local copy
+
+## How to remove the plugin
+
+### Windows/Linux
+Delete the folder `%USERPROFILE%\.stash\plugins\StashAudioPlayer` for Windows or `/root/.stash/plugins/StashAudioPlayer` for Linux
+
+### Docker
+```
+docker exec stash rm -rf /root/.stash/plugins/StashAudioPlayer
+```
