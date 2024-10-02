@@ -1,0 +1,10 @@
+- id: stashaudioplayer
+  name: Stash Audio Player
+  metadata:
+    description: This plugin adds an audio-only toggle button and support for audio files in the Stash player through hls transcoder.
+  version: 0.1
+  date: 2024-11-29 22:24:15
+  path: StashAudioPlayer.zip
+  sha256: 043ef3d622ddff1a28973e3ab31f101c9538d67935c65b77b20bc3557f9319ac
+  requires:
+    - CommunityScriptsUILibrary

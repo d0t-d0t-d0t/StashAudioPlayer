@@ -1,0 +1,17 @@
+{
+    "name": "stash-stuffs",
+    "description": "Stuffs I made for Stash app",
+    "author": "Tetrax-10",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "build": "stash-plugin-builder --build",
+        "watch": "stash-plugin-builder --watch",
+        "build-dist": "stash-plugin-builder --out=dist --minify",
+        "build-all": "node --no-warnings build.js --script --build",
+        "build-all-dist": "node --no-warnings build.js --script --dist"
+    },
+    "devDependencies": {
+        "stash-plugin-builder": "^1.0.3"
+    }
+}

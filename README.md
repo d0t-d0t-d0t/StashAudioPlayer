@@ -13,6 +13,9 @@ This plugin checks for a tag to identify files as audio, so you need to add that
 
 <sup>(Maybe in the future i will implement a direct check for the file extension)</sup>
 
+repo
+https://raw.githubusercontent.com/d0t-d0t-d0t/StashAudioPlayer/refs/heads/dist/index.yml
+
 ## How to add the plugin
 ### Windows/Linux
 `git clone` to `%USERPROFILE%\.stash\plugins` for Windows or `/root/.stash/plugins` for Linux
