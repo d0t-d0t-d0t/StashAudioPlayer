@@ -1,6 +1,6 @@
 {
     "plugins": ["Plugins/*", "Themes/*"],
     "outDir": "dist",
-    "stashPluginSubDir": "binarygeek119-repo",
+    "stashPluginSubDir": "d0t-d0t-d0t-repo",
     "include": ["README.md", "LICENSE"]
 }
