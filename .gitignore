@@ -1,0 +1,5 @@
+dev
+dist
+node_modules
+*.txt
+.env
