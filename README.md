@@ -18,7 +18,7 @@ This plugin adds an audio-only toggle button and support for audio files in the 
 -   CommunityScriptsUILibrary plugin
 
 -   (Optional)
-    This plugin can check for a tag to identify files as audio, so you need to add that tag:
+    This plugin can check for a tag to identify files as audio, if you want to use that function instead of the file extension, you may need to add that tag:
     1. Add audio extensions files in the library settings (ex. mp3, m4a).
     2. Create an `Audio` tag.
     3. Make an `Audio` directory to put the files in and use 'Auto Tag' to tag the files inside the folder, or add the tag manually.
