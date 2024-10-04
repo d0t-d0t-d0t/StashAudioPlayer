@@ -1,4 +1,4 @@
-name: DevStashAudioPlayer
+name: StashAudioPlayer
 description: Add an audio-only toggle button and support for audio files in the Stash player through hls transcoder.
 version: 0.2
 ui:
