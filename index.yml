@@ -3,9 +3,9 @@
   metadata:
     description: Add an audio-only toggle button and support for audio files in the
       Stash player through hls transcoder.
-  version: 0.2-5ed388e
-  date: 2024-10-04 21:30:53
+  version: 0.2-3b4a124
+  date: 2024-10-04 21:33:07
   path: stashAudioPlayer.zip
-  sha256: 8d629b293957b23169c192377cc880b362f63801fd15494dbcc39b098e697c34
+  sha256: 99fa79555df4c5a244be97c8d56a09f83552fbdcd4df8ff585c6e076f2062a1a
   requires:
     - CommunityScriptsUILibrary
